@@ -1,0 +1,14 @@
+0 read r1
+1 setn r2 5
+2 jgtzn r1 9
+3 jeqzn r1 11
+4 setn r3 3
+5 setn r4 4
+6 mul r5 r1 r3
+7 sub r6 r5 r4
+8 jumpn 12
+9 div r6 r1 r2
+10 jumpn 12
+11 setn r6 2
+12 write r6
+13 halt
